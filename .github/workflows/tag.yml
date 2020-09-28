@@ -18,7 +18,7 @@ jobs:
       - run: flutter analyze
       - run: flutter test
 
-  build_ios:
+  build:
     name: Build Flutter (iOS & APK & appbundle)
     needs: [flutter_test]
     runs-on: macos-latest
